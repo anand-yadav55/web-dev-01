@@ -1,0 +1,165 @@
+html{
+	background:url("source/background.jpg");
+	background-size: cover;
+	height:100%;
+	margin:0;
+	z-index: 1px;
+	min-height: 1100px
+}
+
+body{
+	margin:0;
+}
+
+.header-logo{
+	height:80px;
+	width:80px;
+	border:1px solid #4d5049;
+	border-radius: 80px;
+	box-shadow:5px 5px #4d5049;
+	float:left;
+	margin:0px 20px;
+	opacity:0.9;
+}
+
+.header-logo:hover{
+	opacity:1;
+}
+
+.header{
+	background-color: #000000c4;
+	color:white;
+	opacity: 1;
+	position:fixed;
+	width:100%;
+	height:90px;
+	margin:0;
+	padding:0;
+	z-index: 10;
+}
+
+.navigation li{
+	float:right;
+	margin:15px 20px;
+	font-weight:600;
+	font-size:20px;
+	opacity:1;
+	list-style: none;
+}
+
+.navigation a{
+	color:white;
+	cursor:;
+	text-decoration: none;
+	opacity: 0.8;
+}
+
+.navigation a:active{
+	transition: all 1s;
+	opacity:1;
+	text-decoration: none;
+}
+
+.navigation a:hover{
+	opacity:1;
+}
+
+.main{
+	border:10px solid white;
+	position:relative;
+	top:100px;
+	height:100%;
+	width:80%;
+	min-height: 800px;
+	text-align:left;
+	background-color: white;
+	box-shadow: 0 0 20px pink;
+	margin-left: 10%;
+	margin-right:10%;
+}
+
+.footer{
+	padding-top:10px;
+	background-color: black;
+	opacity: 0.8;
+	height: 35px;
+	margin-bottom: 0px;
+	position: relative;
+}
+
+.footer span{
+	text-align:center;
+	float:1;
+	color:white;
+	padding-left:100px;
+}
+
+.footer-logo{
+	float:left;
+	postion:relative;
+	padding-left: 50px;
+	height:30px;
+	width:30px;
+	display:inline-block;
+}
+
+.panda-container{
+	border-bottom: 3px dotted #999999;
+	display: block;
+}
+
+
+.panda{
+	position:relative;
+	
+	width:450px;
+	text-align: left;
+	height:250px;
+	margin-left: 50px;
+	padding-left: 10px;
+}
+.panda-text{
+	text-align:right;
+	font-style:'Ariel';
+	font-size:14px;
+	letter-spacing:2px;
+	line-height: 15px;
+	font-weight: 900;
+}
+
+.panda-detail{
+	border:1px solid grey;
+	padding: 10px;
+	font-size:13px;
+}
+.panda-detail:hover{
+	color:#999999;
+	border:1px solid grey;
+	box-shadow:0 0 10px #999999;
+}
+
+.panda-1{
+	display: flex;
+	flex-flow:column wrap;
+}
+.panda-data{
+	margin-right:30px;
+}
+
+.panda-name{
+	font-size: 40px;
+	color:#999999;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.panda-name:hover{
+	font-size: 40px;
+	color:black;
+	text-align: center;
+	letter-spacing: 2px;
+}
+.panda-image{
+	border:0 solid black;
+	border-radius: 20px;
+}
